@@ -123,21 +123,6 @@
     </div>
 </section>
 
-<!-- Map Section -->
-<section class="py-0">
-    <div class="h-96 bg-gray-300 relative">
-        <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.15420501474!2d112.370754815625!3d-7.110096299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e783f71e768edc7%3A0x3027a76e352be40!2sLamongan%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1701234567890!5m2!1sid!2sid" 
-            width="100%" 
-            height="100%" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    </div>
-</section>
-
 <script>
     document.getElementById('contactForm')?.addEventListener('submit', function(e) {
         e.preventDefault();

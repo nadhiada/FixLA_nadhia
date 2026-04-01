@@ -6,13 +6,10 @@
     <meta name="description" content="Aplikasi pelaporan jalan rusak untuk masyarakat Lamongan">
     <title>@yield('title', 'FixLA') - Laporan Jalan Rusak</title>
     
-    <!-- Vite untuk asset compilation -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    
-    <!-- Font Awesome CDN -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <!-- Custom CSS -->
+
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     
     <style>
@@ -40,7 +37,6 @@
             scroll-behavior: smooth;
         }
         
-        /* Ensure proper stacking context */
         #navbar {
             position: sticky;
             top: 0;
@@ -48,8 +44,7 @@
             background-color: white;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         }
-        
-        /* Animation */
+
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -87,7 +82,6 @@
     
     @include('partials.footer')
     
-    <!-- Custom JS -->
     <script src="{{ asset('js/script.js') }}"></script>
 </body>
 </html>

@@ -74,19 +74,4 @@
     </div>
 </section>
 
-<!-- CTA -->
-<section class="bg-gradient-to-r from-blue-600 to-blue-400 text-white py-16">
-    <div class="max-w-4xl mx-auto text-center px-4">
-        <h2 class="text-3xl font-bold mb-4">Mulai Gunakan Sekarang!</h2>
-        <p class="text-blue-100 mb-8">Unduh aplikasi RoadCare Lamongan dan laporkan jalan rusak di sekitarmu</p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <button class="bg-white text-blue-600 px-8 py-3 rounded-xl font-semibold hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                <i class="fab fa-google-play mr-2"></i> Google Play
-            </button>
-            <button class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-xl font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300 hover:-translate-y-1">
-                <i class="fab fa-apple mr-2"></i> App Store
-            </button>
-        </div>
-    </div>
-</section>
 @endsection

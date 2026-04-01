@@ -3,8 +3,7 @@
         <div class="flex justify-between items-center h-16">
             <!-- Logo -->
             <div class="flex items-center space-x-3">
-                <img src="{{ asset('images/logo.png') }}" alt="FixLA Logo" class="h-10 w-auto" onerror="this.src='https://via.placeholder.com/40x40/3b82f6/ffffff?text=RC'">
-                <span class="text-xl font-bold bg-gradient-to-r from-[#3b82f6] to-[#60a5fa] bg-clip-text text-transparent">FixLA</span>
+                <img src="{{ asset('images/logo.png') }}" alt="FixLA Logo" class="h-25 w-auto" onerror="this.src='https://via.placeholder.com/40x40/3b82f6/ffffff?text=RC'">
             </div>
             
             <!-- Desktop Menu -->

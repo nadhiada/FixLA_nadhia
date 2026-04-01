@@ -1,11 +1,10 @@
-<footer class="bg-gray-900 text-white pt-12 pb-6 mt-auto relative z-10">
+<footer class="bg-gray-700 text-white pt-12 pb-6 mt-auto relative z-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <!-- Company Info -->
             <div>
-                <div class="flex items-center space-x-3 mb-4">
-                    <img src="{{ asset('images/logo.png') }}" alt="Logo" class="h-8 w-auto" onerror="this.src='https://via.placeholder.com/32x32/3b82f6/ffffff?text=RC'">
-                    <span class="font-bold text-lg bg-gradient-to-r from-[#3b82f6] to-[#60a5fa] bg-clip-text text-transparent">FixLA</span>
+                <div class="flex items-center space-x-3 mb-1">
+                    <img src="{{ asset('images/logo.png') }}" alt="Logo" class="h-20 w-auto" onerror="this.src='https://via.placeholder.com/32x32/3b82f6/ffffff?text=RC'">
                 </div>
                 <p class="text-gray-400 text-sm leading-relaxed">
                     Aplikasi pelaporan jalan rusak untuk masyarakat Lamongan. Cepat, akurat, dan transparan.
@@ -58,17 +57,6 @@
                     <a href="#" class="bg-gray-800 hover:bg-[#3b82f6] w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110">
                         <i class="fab fa-youtube"></i>
                     </a>
-                </div>
-                
-                <!-- Newsletter -->
-                <div class="mt-6">
-                    <p class="text-gray-400 text-sm mb-2">Subscribe newsletter</p>
-                    <div class="flex">
-                        <input type="email" placeholder="Email Anda" class="flex-1 px-3 py-2 text-gray-900 rounded-l-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#3b82f6]">
-                        <button class="bg-[#3b82f6] px-3 py-2 rounded-r-lg hover:bg-[#60a5fa] transition">
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </div>
                 </div>
             </div>
         </div>

@@ -32,18 +32,6 @@
                     dengan foto, lokasi GPS, dan deskripsi kerusakan. Pantau status perbaikan 
                     secara transparan.
                 </p>
-                
-                <!-- Buttons -->
-                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                    <button class="bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold hover:bg-blue-50 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl">
-                        <i class="fab fa-google-play text-xl"></i>
-                        Google Play
-                    </button>
-                    <button class="bg-transparent border-2 border-white text-white px-6 py-3 rounded-xl font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300 flex items-center justify-center gap-2">
-                        <i class="fab fa-apple text-xl"></i>
-                        App Store
-                    </button>
-                </div>
             </div>
 
             <!-- Right Content - Mockup HP -->
@@ -57,13 +45,10 @@
                         <!-- Screen Content -->
                         <div class="bg-white rounded-2xl overflow-hidden">
                             <!-- App Header -->
-                            <div class="bg-gradient-to-r from-blue-600 to-blue-400 p-3">
+                            <div class="bg-gradient-to-r from-purple-200 to-blue-600 p-3">
                                 <div class="flex items-center justify-between">
-                                    <div class="flex items-center gap-2">
-                                        <div class="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                                            <i class="fas fa-road text-blue-600 text-sm"></i>
-                                        </div>
-                                        <span class="text-white font-bold text-sm">FixLA</span>
+                                    <div class="flex h-8 items-center gap-2">
+                                        <img src="{{ asset('images/logo.png') }}" alt="FixLA Logo" class="h-15 w-auto" onerror="this.src='https://via.placeholder.com/20x20/3b82f6/ffffff?text=RC'">
                                     </div>
                                     <div class="flex gap-2">
                                         <i class="fas fa-bell text-white text-sm"></i>
@@ -81,7 +66,7 @@
                                 </div>
                                 
                                 <!-- Report Button -->
-                                <button class="w-full bg-gradient-to-r from-blue-600 to-blue-400 text-white py-2 rounded-lg text-sm font-semibold mb-3 flex items-center justify-center gap-2">
+                                <button class="w-full bg-gradient-to-r from-purple-300 to-blue-600 text-white py-2 rounded-lg text-sm font-semibold mb-3 flex items-center justify-center gap-2">
                                     <i class="fas fa-plus-circle"></i>
                                     Laporkan Jalan Rusak
                                 </button>
@@ -156,7 +141,7 @@
                             
                             <!-- Bottom Navigation -->
                             <div class="bg-white border-t border-gray-100 p-2 flex justify-around">
-                                <i class="fas fa-home text-blue-600 text-sm"></i>
+                                <i class="fas fa-home text-purple-400 text-sm"></i>
                                 <i class="fas fa-map text-gray-400 text-sm"></i>
                                 <i class="fas fa-bell text-gray-400 text-sm"></i>
                                 <i class="fas fa-user text-gray-400 text-sm"></i>
@@ -274,25 +259,4 @@
     </div>
 </section>
 
-<!-- CTA -->
-<section class="bg-gradient-to-r from-blue-600 to-blue-400 text-white py-16">
-    <div class="max-w-4xl mx-auto text-center px-4">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">
-            Siap Membangun Lamongan?
-        </h2>
-        <p class="text-blue-100 mb-8">
-            Download aplikasi sekarang dan laporkan jalan rusak di sekitarmu!
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <button class="bg-white text-blue-600 px-8 py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2">
-                <i class="fab fa-google-play text-xl"></i>
-                Google Play
-            </button>
-            <button class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-xl font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300 flex items-center justify-center gap-2">
-                <i class="fab fa-apple text-xl"></i>
-                App Store
-            </button>
-        </div>
-    </div>
-</section>
 @endsection
