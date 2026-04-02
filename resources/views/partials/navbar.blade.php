@@ -17,7 +17,7 @@
             <!-- Download Button -->
             <div class="flex space-x-3">
                 <button class="bg-gradient-to-r from-[#3b82f6] to-[#60a5fa] text-white px-5 py-2 rounded-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-                    <i class="fas fa-download mr-2"></i>Download
+                    Masuk
                 </button>
                 
                 <!-- Mobile Menu Button -->
